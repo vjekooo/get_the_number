@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C137B11421596B41007FAC4A /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = C137B11321596B41007FAC4A /* BullsEye.html */; };
 		C1E588C42152CA7300619AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E588C32152CA7300619AD3 /* AppDelegate.swift */; };
 		C1E588C62152CA7300619AD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E588C52152CA7300619AD3 /* ViewController.swift */; };
 		C1E588C92152CA7300619AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E588C72152CA7300619AD3 /* Main.storyboard */; };
 		C1E588CB2152CA7600619AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E588CA2152CA7600619AD3 /* Assets.xcassets */; };
 		C1E588CE2152CA7600619AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E588CC2152CA7600619AD3 /* LaunchScreen.storyboard */; };
+		C1FA4B8421583B6400762D56 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA4B8321583B6400762D56 /* AboutAuthorViewController.swift */; };
 		C1FD70602154610F001A9BF1 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD705F2154610F001A9BF1 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C137B11321596B41007FAC4A /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		C1E588C02152CA7300619AD3 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E588C32152CA7300619AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1E588C52152CA7300619AD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +26,7 @@
 		C1E588CA2152CA7600619AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1E588CD2152CA7600619AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1E588CF2152CA7600619AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1FA4B8321583B6400762D56 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 		C1FD705F2154610F001A9BF1 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,11 +62,13 @@
 			children = (
 				C1E588C32152CA7300619AD3 /* AppDelegate.swift */,
 				C1E588C52152CA7300619AD3 /* ViewController.swift */,
+				C1FA4B8321583B6400762D56 /* AboutAuthorViewController.swift */,
 				C1E588C72152CA7300619AD3 /* Main.storyboard */,
 				C1FD705F2154610F001A9BF1 /* AboutViewController.swift */,
 				C1E588CA2152CA7600619AD3 /* Assets.xcassets */,
 				C1E588CC2152CA7600619AD3 /* LaunchScreen.storyboard */,
 				C1E588CF2152CA7600619AD3 /* Info.plist */,
+				C137B11321596B41007FAC4A /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1E588CE2152CA7600619AD3 /* LaunchScreen.storyboard in Resources */,
+				C137B11421596B41007FAC4A /* BullsEye.html in Resources */,
 				C1E588CB2152CA7600619AD3 /* Assets.xcassets in Resources */,
 				C1E588C92152CA7300619AD3 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 				C1FD70602154610F001A9BF1 /* AboutViewController.swift in Sources */,
 				C1E588C62152CA7300619AD3 /* ViewController.swift in Sources */,
 				C1E588C42152CA7300619AD3 /* AppDelegate.swift in Sources */,
+				C1FA4B8421583B6400762D56 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
